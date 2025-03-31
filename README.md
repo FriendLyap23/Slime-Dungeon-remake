@@ -9,6 +9,6 @@ ___
 The game's code has been completely rewritten and the graphics have been changed.
 ___
 ## Technologies
-**Development environment** - Unity
-**IDE** - Microsoft Visual Studio
+**Development environment** - Unity<br />
+**IDE** - Microsoft Visual Studio<br />
 **Programming language** - C#
