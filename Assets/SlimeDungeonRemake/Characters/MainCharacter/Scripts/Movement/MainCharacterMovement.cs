@@ -88,5 +88,3 @@ public class MainCharacterMovement : Character, IDashable
         _canDash = true;
     }
 }
-
-

@@ -1,5 +1,4 @@
 using System;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class HealthMainCharacter : MonoBehaviour
@@ -35,5 +34,4 @@ public class HealthMainCharacter : MonoBehaviour
         OnHealthChanged?.Invoke(0);
         OnDeathCharacter?.Invoke();
     }
-
 }

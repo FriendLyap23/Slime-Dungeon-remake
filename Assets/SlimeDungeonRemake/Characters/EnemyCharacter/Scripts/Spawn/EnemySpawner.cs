@@ -1,4 +1,3 @@
-using System.Collections;
 using UnityEngine;
 
 public class EnemySpawner : MonoBehaviour
@@ -44,6 +43,5 @@ public class EnemySpawner : MonoBehaviour
             Debug.Log("Spawn point is blocked!");
         }
     }
-
 }
 

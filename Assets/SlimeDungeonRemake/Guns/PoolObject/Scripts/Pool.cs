@@ -31,9 +31,6 @@ public class Pool : MonoBehaviour
 
     private void OnDisable()
     {
-        //foreach (var poolObject in _pool)
-        //    Destroy(poolObject.gameObject);
-
         _pool.Clear();
         switchGun.ChangeGun -= CreatePoolHandler;
     }
@@ -75,21 +72,6 @@ public class Pool : MonoBehaviour
         element = null;
         return false;
     }
-
-    //public PoolObject GetFreeElement(Vector3 position, Quaternion rotation)
-    //{
-    //    var element = GetFreeElement();
-    //    element.transform.rotation = rotation;
-    //    return element;
-    //}
-
-    //public PoolObject GetFreeElement(Vector3 position)
-    //{
-    //    var element = GetFreeElement();
-    //    element.transform.position = position;
-    //    return element;
-    //}
-
 
     public PoolObject GetFreeElement(Vector3 position, GameObject bulletPrefab, Quaternion quaternion)
     {
