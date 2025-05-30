@@ -4316,8 +4316,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 32aa3aef722d3b343b4fde546322b4e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _pausePanel: {fileID: 209553337}
-  _gameStates: {fileID: 0}
 --- !u!1 &763573441
 GameObject:
   m_ObjectHideFlags: 0
@@ -6588,37 +6586,19 @@ MonoBehaviour:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 4
-      inSlope: 0
-      outSlope: -0.01
-      tangentMode: 69
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0
-    - serializedVersion: 3
-      time: 100
-      value: 3
-      inSlope: -0.01
-      outSlope: -0.02
-      tangentMode: 69
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0
-    - serializedVersion: 3
-      time: 150
-      value: 2
-      inSlope: -0.02
-      outSlope: -0.02
-      tangentMode: 69
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0
-    - serializedVersion: 3
-      time: 200
       value: 1
-      inSlope: -0.02
+      inSlope: 0
       outSlope: 0
-      tangentMode: 69
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 30
+      value: 2
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
       weightedMode: 0
       inWeight: 0
       outWeight: 0
